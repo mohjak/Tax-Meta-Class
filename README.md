@@ -21,6 +21,9 @@ Other options are available for each field which can be see in the 'Tax-meta-cla
 
 ## Changelog
 
+2.1.1
+Add composer.json
+
 2.1.0
 Added support for WordPress 4.4 native term meta table
 added migration class
