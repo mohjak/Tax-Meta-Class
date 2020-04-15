@@ -1,0 +1,13 @@
+{
+  "name": "mohjak/Tax-meta-class",
+  "description": "A class for creating WordPress taxonomies custom fields.",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "bainternet"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
+}
