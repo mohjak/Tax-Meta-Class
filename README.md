@@ -1,26 +1,29 @@
-Tax Meta Class
-=======================
+# Tax Meta Class
+
 Contributors: bainternet
 Requires at least: 3.5
 Tested up to: 4.0
 [![Analytics](https://ga-beacon.appspot.com/UA-50573135-3/tax-meta-class/main)](https://github.com/bainternet/Tax-Meta-Class)
 
-Description
------------
-The Tax Meta Class is used by including it in your plugin r theme files and using its methods to 
-Add meta fields for WordPress Taxonomies (categories,tags and custom taxonomies). It is meant to be very simple and 
+## Description
+
+The Tax Meta Class is used by including it in your plugin r theme files and using its methods to
+Add meta fields for WordPress Taxonomies (categories,tags and custom taxonomies). It is meant to be very simple and
 straightforward.
 
-This class is derived from My-Meta-Box (https://github.com/bainternet/My-Meta-Box script) which is 
-a class for creating custom meta boxes for WordPress. 
+This class is derived from My-Meta-Box [script](https://github.com/bainternet/My-Meta-Box) which is
+a class for creating custom meta boxes for WordPress.
 
-Usage
---------
-Take a look at the `class-usage-demo.php` file which can also be tested as a WordPress Plugin. 
-Other options are available for each field which can be see in the 'Tax-meta-class.php' file, 
+## Usage
 
-Changelog
----------
+Take a look at the `class-usage-demo.php` file which can also be tested as a WordPress Plugin.
+Other options are available for each field which can be see in the 'Tax-meta-class.php' file,
+
+## Changelog
+
+2.1.1
+Add composer.json
+
 2.1.0
 Added support for WordPress 4.4 native term meta table
 added migration class
@@ -71,7 +74,6 @@ Added 'multiple' => false to all field types as defualt.
 fixed issue #27 (again).
 fixed issues #28, #29 , #30.
 
-
 = 1.8.8 =
 fixed issue #27.
 
@@ -81,7 +83,7 @@ fixed issue #26.
 = 1.8.6 =
 fixed issue #25.
 
-= 1.8.5 = 
+= 1.8.5 =
 fixed issue #21.
 
 = 1.8.4 =
@@ -98,17 +100,17 @@ Once again thanks to oobi. issue 17
 = 1.8.1 =
 added mete deletion on term deletion thanks to oobi
 
-= 1.8 = 
+= 1.8 =
 fixed issue 12
 fixed issue 13
 fixed issue 14
 fixed issue 15
 changed "insert into post" on media uploader.
 
-= 1.7.4 = 
+= 1.7.4 =
 Fixed bug caused by issue 2 fix.
 
-= 1.7.3 = 
+= 1.7.3 =
 Fixed issue #2.
 
 = 1.7.2 =
@@ -117,7 +119,7 @@ Fixed issue #11.
 = 1.7.1 =
 Fixed typo.
 
-= 1.7 = 
+= 1.7 =
 Added strip slashes and get_tax_meta_strip function to avoid WordPress's native escape slashes.
 
 = 1.6 =
@@ -137,6 +139,5 @@ Fixed WP debug errors
 Fixed debug Errors
 
 = 1.0 =
-* First Release
 
-
+- First Release
